@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="popup.scss" />
+  </head>
+  <body>
+    <main id="paste_area" class="paste-area">
+      <div id="paste_area_text" class="paste-area-text" tabindex="-1"></div>
+      <div id="result_area" class="result-area" hidden>
+        <div class="result-area-top">
+          <input type="text" id="result_area_input" aria-label="" readonly />
+          <button id="result_area_copy_button"></button>
+        </div>
+        <div class="result-area-bottom">
+          <label>
+            <input type="checkbox" id="result_area_autocopy_checkbox" checked />
+            <span id="result_area_autocopy_label"></span>
+          </label>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a id="rate_link" href="#" target="_blank"></a>
+    </footer>
+    <script type="module" src="popup.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+{
+  "extension_name": {
+    "message": "Data URL Converter Tool"
+  },
+
+  "extension_short_name": {
+    "message": "Data URL Converter"
+  },
+
+  "extension_description": {
+    "message": "Privately convert files from your clipboard to data: URLs right inside your browser."
+  },
+
+  "paste_your_content": {
+    "message": "Paste your content to get the data: URL."
+  },
+
+  "converting": {
+    "message": "Converting…"
+  },
+
+  "no_files_found": {
+    "message": "No files were found in your clipboard."
+  },
+
+  "no_files_found_try_keyboard": {
+    "message": "No files were found in your clipboard. Try pasting them by pressing $KEYS$.",
+    "placeholders": {
+      "keys": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "copy": {
+    "message": "Copy"
+  },
+
+  "copied": {
+    "message": "Copied!"
+  },
+
+  "copy_automatically": {
+    "message": "Copy automatically"
+  },
+
+  "found_content_a": {
+    "message": "Found a <code title=\"$FILETYPE_FULL$\" role=\"presentation\">$FILETYPE$</code>.",
+    "placeholders": {
+      "filetype": {
+        "content": "$1"
+      },
+      "filetype_full": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "found_content_an": {
+    "message": "Found an <code title=\"$FILETYPE_FULL$\" role=\"presentation\">$FILETYPE$</code>.",
+    "placeholders": {
+      "filetype": {
+        "content": "$1"
+      },
+      "filetype_full": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "result_input_accessible_label": {
+    "message": "The final data: URL"
+  },
+
+  "result_input_truncated_value": {
+    "message": "$TRUNCATED_URL$… (truncated)",
+    "placeholders": {
+      "truncated_url": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "error_occurred": {
+    "message": "Encountered an error reading the file. Was it a\u00A0folder?"
+  },
+
+  "rate_chromium": {
+    "message": "Rate on the Chrome Web Store"
+  },
+
+  "rate_edge": {
+    "message": "Rate on Microsoft Edge Add-ons"
+  },
+
+  "rate_gecko": {
+    "message": "Rate on Firefox Add-ons"
+  }
+}
