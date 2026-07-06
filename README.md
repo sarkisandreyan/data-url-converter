@@ -12,8 +12,8 @@ A minimalist browser extension that allows you to convert files in your clipboar
 
 Download the extension from the official marketplace listings:
 
-- [Download on the Chrome Web Store](https://chromewebstore.google.com/detail/speed-changer/albfdjflebpipkmmpjblndlcjljidlei)
-- [Download on Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/speed-changer/ijgigneidepmehkbcmldmoipalfgmmbg)
+- [Download on the Chrome Web Store](https://chromewebstore.google.com/detail/data-url-converter-tool/mdocclmdobfpmpcgfafgipimlppdmgff)
+- [Download on Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/data-url-converter-tool/enfnkookpjkjeljjkppmbaeccigjlolk)
 - [Download on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/data-url-converter-tool/)
 
 ## Running or Building Locally
