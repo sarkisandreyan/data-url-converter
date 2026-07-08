@@ -1,7 +1,7 @@
 {
   "name": "data-url-converter",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sarkis Andreyan <sarkis@andreyan.com>",
   "license": "MIT",
   "engines": {
