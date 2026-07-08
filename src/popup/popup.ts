@@ -111,8 +111,13 @@ async function convertFile(event: MouseEvent | ClipboardEvent) {
   }
 }
 
-function copyResult() {
+function copyResult(event?: MouseEvent | ClipboardEvent) {
   if (result === null) return false;
+  // Prevent the actual system copy from overriding the manual
+  // copy below (necessary in Gecko).
+  if (event instanceof ClipboardEvent) {
+    event.preventDefault();
+  }
   result_area_copy_button.textContent = browser.i18n.getMessage('copied');
   navigator.clipboard.writeText(result);
   return true;
