@@ -1,4 +1,6 @@
 import { blobToDataURL, formatFileType, isMacintoshAgent } from '../utils';
+import { COPY_AUTOMATICALLY_CONFIG_KEY } from '../constants';
+import patchStylesForNovaIfNeeded from './firefox-nova-patch';
 import browser from '../browser';
 
 declare const paste_area: HTMLElement;
@@ -9,6 +11,10 @@ declare const result_area_copy_button: HTMLButtonElement;
 declare const result_area_autocopy_checkbox: HTMLInputElement;
 declare const result_area_autocopy_label: HTMLSpanElement;
 declare const rate_link: HTMLAnchorElement;
+
+if (import.meta.env.MODE === 'gecko') {
+  patchStylesForNovaIfNeeded();
+}
 
 const listingUrl = (() => {
   if (!import.meta.env.DU_LISTING_LINK) return null;
@@ -130,11 +136,11 @@ result_area_input.addEventListener('copy', copyResult);
 result_area_copy_button.addEventListener('click', copyResult);
 
 result_area_autocopy_checkbox.checked =
-  localStorage.getItem('copyAutomatically') !== 'off';
+  localStorage.getItem(COPY_AUTOMATICALLY_CONFIG_KEY) !== 'off';
 
 result_area_autocopy_checkbox.addEventListener('change', () => {
   localStorage.setItem(
-    'copyAutomatically',
+    COPY_AUTOMATICALLY_CONFIG_KEY,
     result_area_autocopy_checkbox.checked ? 'on' : 'off',
   );
 
