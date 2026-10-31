@@ -44,6 +44,7 @@ body {
   aspect-ratio: 3/2;
   gap: rem(8px);
   border: rem(2px) dashed color-mix(in srgb, currentColor, transparent 50%);
+  border-radius: var(--paste-area-radius, 0);
   margin: rem(8px);
   padding: 0 12.5%;
   justify-content: center;
