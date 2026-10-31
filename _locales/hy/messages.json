@@ -1,0 +1,99 @@
+{
+  "extension_name": {
+    "message": "Data URL փոխարկիչ"
+  },
+
+  "extension_short_name": {
+    "message": "Data URL փոխարկիչ"
+  },
+
+  "extension_description": {
+    "message": "Փոխարկիր ֆայլերդ data: URL-ների անմիջապես բրաուզերից։"
+  },
+
+  "paste_your_content": {
+    "message": "Տեղադրիր ֆայլդ՝ data: URL-ը ստանալու համար։"
+  },
+
+  "converting": {
+    "message": "Փոխարկվում է…"
+  },
+
+  "no_files_found": {
+    "message": "Փոխանակման բուֆերում ֆայլեր չգտնվեցին։"
+  },
+
+  "no_files_found_try_keyboard": {
+    "message": "Փոխանակման բուֆերում ֆայլեր չգտնվեցին։ Փորձիր տեղադրել՝ սեղմելով $KEYS$։",
+    "placeholders": {
+      "keys": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "copy": {
+    "message": "Պատճենել"
+  },
+
+  "copied": {
+    "message": "Պատճենված է"
+  },
+
+  "copy_automatically": {
+    "message": "Ավտոմատ պատճենել"
+  },
+
+  "found_content_a": {
+    "message": "Գտնվեց <code title=\"$FILETYPE_FULL$\" role=\"presentation\">$FILETYPE$</code>։",
+    "placeholders": {
+      "filetype": {
+        "content": "$1"
+      },
+      "filetype_full": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "found_content_an": {
+    "message": "Գտնվեց <code title=\"$FILETYPE_FULL$\" role=\"presentation\">$FILETYPE$</code>։",
+    "placeholders": {
+      "filetype": {
+        "content": "$1"
+      },
+      "filetype_full": {
+        "content": "$2"
+      }
+    }
+  },
+
+  "result_input_accessible_label": {
+    "message": "Վերջնական data: URL-ը"
+  },
+
+  "result_input_truncated_value": {
+    "message": "$TRUNCATED_URL$… (կրճատված է)",
+    "placeholders": {
+      "truncated_url": {
+        "content": "$1"
+      }
+    }
+  },
+
+  "error_occurred": {
+    "message": "Չհաջողվեց ֆայլը կարդալ։ Գուցե այն պանա՞կ էր։"
+  },
+
+  "rate_chromium": {
+    "message": "Գնահատել Chrome Web Store-ում"
+  },
+
+  "rate_edge": {
+    "message": "Գնահատել Microsoft Edge Add-ons-ում"
+  },
+
+  "rate_gecko": {
+    "message": "Գնահատել Firefox Add-ons-ում"
+  }
+}
